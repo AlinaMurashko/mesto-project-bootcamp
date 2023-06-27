@@ -1,0 +1,15 @@
+.popup__inputs {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    row-gap: 30px;
+    margin: 0;
+    padding: 54px 0 48px 0;
+}
+
+@media screen and (max-width:596px) {
+
+    .popup__inputs {
+        padding: 75px 0 45px 0;
+    }
+}
