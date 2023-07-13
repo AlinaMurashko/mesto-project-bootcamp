@@ -2,11 +2,18 @@
     max-width: 880px;
     width: 100%;
     margin: 0 auto;
-    padding: 66px 0 60px 0;
-    font-family: 'Inter';
+    padding: 0 0 60px 0;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     color: #545454;
+}
+
+@media screen and (max-width:596px) {
+
+    .footer {
+        font-size: 14px;
+    }
 }

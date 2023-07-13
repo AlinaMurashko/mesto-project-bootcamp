@@ -1,9 +1,8 @@
 .elements__element {
     width: 282px;
-    height: 361px;
     border-radius: 10px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }

@@ -1,8 +1,9 @@
 .popup__info {
     display: flex;
     flex-direction: column;
+    width: 358px;
     padding: 34px 36px 37px;
-    margin:0 40px 0 0;
+    margin:0;
     background-color: #fff;
     border-radius: 10px;
     position: relative;
@@ -14,6 +15,7 @@
 @media screen and (max-width:596px) {
 
     .popup__info {
+        width: 238px;
         padding: 25px 22px;
         margin:0;
     }

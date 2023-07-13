@@ -5,11 +5,12 @@
     justify-content: flex-start;
     align-self: center;
     margin: 0;
-    padding: 45px 0 0;
+    padding: 45px 0 41px;
     max-width: 880px;
     width: 100%;
     gap: 41px;
     box-sizing: border-box;
+    border-bottom: 1px solid rgba(84,84.84,0.7)
 }
 
 @media screen and (max-width:596px) {
